@@ -26,9 +26,7 @@ namespace GameUno.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("server=rc1a-y3slictcc572bhzi.mdb.yandexcloud.net;user=player1;port=3306;password=" +
-            "rootroot;database=uno;SslMode=Preferred;SslCa=C:\\\\Users\\\\mev43\\\\.mysql\\\\root.crt" +
-            ";")]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;user=root;port=3306;password=root;database=uno;")]
         public string ConnectionString {
             get {
                 return ((string)(this["ConnectionString"]));
